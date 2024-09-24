@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/labelDoLogin"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:text="Faça o Login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#ACC7FF"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/fieldUsername"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="#573E5B"
+        android:ems="10"
+        android:hint="Digite Seu Username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/fieldPassword"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="#573E5B"
+        android:ems="10"
+        android:hint="Digite Sua Senha"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#283041"
+        android:text="Login"
+        android:textColor="#debcdf" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#283041"
+        android:text="Registrar"
+        android:textColor="#debcdf" />
+</LinearLayout>
