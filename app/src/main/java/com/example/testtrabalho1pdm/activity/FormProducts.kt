@@ -28,6 +28,10 @@ class FormProducts : AppCompatActivity() {
 
             if (product != null) {
                 binding.fieldProductName.setText(product.nome)
+                binding.fieldProductDesc.setText(product.descricao)
+                binding.fieldProductPreco.setText(product.preco.toString())
+                binding.fieldProductEstoque.setText(product.estoque.toString())
+
 
             } else {
                 Toast.makeText(this, "Produto não encontrado!", Toast.LENGTH_SHORT).show()

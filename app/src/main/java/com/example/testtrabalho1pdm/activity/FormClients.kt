@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.testtrabalho1pdm.R
+
 import com.example.testtrabalho1pdm.database.ClientsDatabaseHelper
 import com.example.testtrabalho1pdm.databinding.FormClientsBinding
 
@@ -16,7 +16,6 @@ class FormClients : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = FormClientsBinding.inflate(layoutInflater)
-        setContentView(R.layout.form_clients)
         setContentView(binding.root)
 
         dbHelper = ClientsDatabaseHelper(this)

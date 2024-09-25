@@ -33,7 +33,6 @@
         android:hint="Digite o valor total do pedido"
         android:inputType="numberDecimal"/>
 
-    <!-- Campo Status -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,7 +47,6 @@
         android:hint="Digite o status do pedido (ex: Pago, Pendente)"
         android:inputType="text"/>
 
-    <!-- Campo Observação -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,7 +61,6 @@
         android:hint="Adicione observações do pedido"
         android:inputType="textMultiLine"/>
 
-    <!-- Botões -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
